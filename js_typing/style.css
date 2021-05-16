@@ -1,0 +1,80 @@
+@charset "utf-8";
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+body {
+  background-image: url(/img_01/Back-Ground.jpeg);
+  background-color: rgb(255, 255, 255, 0.8);
+  background-blend-mode: lighten;
+  text-align: center;
+  margin-top: 200px;
+  font-family: serif;
+  font-size: 1.5rem;
+}
+
+#time {
+  margin: 30px;
+  letter-spacing: .1rem;
+  font-size: 2rem;
+}
+
+input {
+  font-weight: bold;
+  padding: 5px 10px;
+letter-spacing: .2rem;
+  margin: 50px;
+  font-family: serif;
+  font-size: 2rem;
+  border-radius: 3px;
+  color: aliceblue;
+  cursor: pointer;
+  transition: .2s;
+}
+
+input:hover {
+  opacity: .8;
+  transform: scale(1.1);
+  transition: .2s;
+}
+
+#start {
+  background-color: rgb(65, 134, 225);
+}
+
+#reset {
+  text-decoration: none;
+  display: none;
+  background-color: rgb(172, 59, 59);
+}
+
+#startClick {
+  font-size: 2rem;
+}
+
+#characters {
+  display: none;
+  margin: 0 auto;
+  width: 500px;
+    padding: 8px 19px;
+    color: black;
+    border:double 5px #645dce;
+  letter-spacing: .3rem;
+  font-size: 3rem;
+}
+#startButton{
+  font-weight: bold;
+  letter-spacing: .2rem;
+  padding: 5px;
+  border: solid 2px black;
+  color: aliceblue;
+  background-color: rgb(65, 134, 225);
+}
+
+
+
+#typed {
+  color: red;
+}
